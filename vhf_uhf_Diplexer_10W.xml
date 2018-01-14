@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/anton/Downloads/vhf_uhf_diplexer/vhf_uhf_Diplexer_10W.sch</source>
+    <date>Sun 14 Jan 2018 10:03:44 SAST</date>
+    <tool>Eeschema 4.0.7-e2-6376~58~ubuntu16.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>vhf_uhf_Diplexer_10W.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="P1">
+      <value>SMA</value>
+      <footprint>Bacar:SMA_Edge</footprint>
+      <libsource lib="Raspberry_Pi_2m_TX-cache" part="SMA"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A59FADA</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>SMA</value>
+      <footprint>Bacar:SMA_Edge</footprint>
+      <libsource lib="Raspberry_Pi_2m_TX-cache" part="SMA"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A59FB06</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>SMA</value>
+      <footprint>Bacar:SMA_Edge</footprint>
+      <libsource lib="Raspberry_Pi_2m_TX-cache" part="SMA"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A59FB70</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>18pF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A59FBD5</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>18pF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A59FCF8</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>4.7pF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A59FD2B</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>2.7pF</value>
+      <footprint>Capacitors_SMD:C_1812_HandSoldering</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A59FD7F</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>4.7pF</value>
+      <footprint>Capacitors_SMD:C_1812_HandSoldering</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A59FDB4</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>68nH</value>
+      <footprint>smd_2520:L_Fastron_PISN_Handsoldering</footprint>
+      <libsource lib="device" part="L_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A59FDEC</tstamp>
+    </comp>
+    <comp ref="L2">
+      <value>100nH</value>
+      <footprint>smd_2520:L_Fastron_PISN_Handsoldering</footprint>
+      <libsource lib="device" part="L_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A59FE74</tstamp>
+    </comp>
+    <comp ref="L3">
+      <value>68nH</value>
+      <footprint>smd_2520:L_Fastron_PISN_Handsoldering</footprint>
+      <libsource lib="device" part="L_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A59FEB6</tstamp>
+    </comp>
+    <comp ref="L4">
+      <value>15nH</value>
+      <footprint>smd_2520:L_Fastron_PISN_Handsoldering</footprint>
+      <libsource lib="device" part="L_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A59FF0C</tstamp>
+    </comp>
+    <comp ref="L5">
+      <value>15nH</value>
+      <footprint>smd_2520:L_Fastron_PISN_Handsoldering</footprint>
+      <libsource lib="device" part="L_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A59FF5E</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="C_Small">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="L_Small">
+      <description>Inductor, small symbol</description>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Raspberry_Pi_2m_TX-cache" part="SMA">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">SMA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Raspberry_Pi_2m_TX-cache">
+      <uri>/home/anton/Documents/kicad/Bacar_transmitter/Bacar_Raspberry_tx-master/Raspberry_Pi_2m_TX-cache.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(C3-Pad2)">
+      <node ref="C3" pin="2"/>
+      <node ref="L1" pin="2"/>
+      <node ref="P1" pin="1"/>
+    </net>
+    <net code="2" name="Net-(C5-Pad1)">
+      <node ref="C5" pin="1"/>
+      <node ref="P2" pin="1"/>
+    </net>
+    <net code="3" name="Net-(C4-Pad1)">
+      <node ref="C5" pin="2"/>
+      <node ref="C4" pin="1"/>
+      <node ref="L5" pin="2"/>
+    </net>
+    <net code="4" name="Net-(C3-Pad1)">
+      <node ref="C4" pin="2"/>
+      <node ref="C3" pin="1"/>
+      <node ref="L4" pin="2"/>
+    </net>
+    <net code="5" name="GND">
+      <node ref="C2" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="P3" pin="2"/>
+      <node ref="P2" pin="2"/>
+      <node ref="L5" pin="1"/>
+      <node ref="P1" pin="2"/>
+      <node ref="L4" pin="1"/>
+    </net>
+    <net code="6" name="Net-(C1-Pad1)">
+      <node ref="L2" pin="2"/>
+      <node ref="L1" pin="1"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="7" name="Net-(C2-Pad1)">
+      <node ref="L3" pin="2"/>
+      <node ref="L2" pin="1"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="8" name="Net-(L3-Pad1)">
+      <node ref="L3" pin="1"/>
+      <node ref="P3" pin="1"/>
+    </net>
+  </nets>
+</export>

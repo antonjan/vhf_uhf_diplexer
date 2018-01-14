@@ -1,0 +1,9 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"C1,C2";"C_1206_HandSoldering";2;"18pF";;;
+2;"L1,L3";"SMD-2520";2;"68nH";;;
+3;"L2";"SMD-2520";1;"100nH";;;
+4;"L4,L5";"SMD-2520";2;"15nH";;;
+5;"P1,P2,P3";"SMA_Edge";3;"SMA";;;
+6;"C3,C5";"C_1206_HandSoldering";2;"4.7pF";;;
+7;"C4";"C_1206_HandSoldering";1;"2.7pF";;;
+8;"J1,J2,J3,J4";"MountingHole_3.2mm_M3_Pad";4;"3mm mount";;;

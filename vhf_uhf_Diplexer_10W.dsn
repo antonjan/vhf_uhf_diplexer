@@ -1,0 +1,181 @@
+(pcb /home/anton/Downloads/vhf_uhf_diplexer/vhf_uhf_Diplexer_10W.dsn
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "4.0.7-e2-6376~58~ubuntu16.04.1")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  39370 -21590  96520 -21590  96520 -66040  39370 -66040
+            39370 -21590  39370 -21590)
+    )
+    (via "Via[0-1]_600:400_um")
+    (rule
+      (width 250)
+      (clearance 200.1)
+      (clearance 200.1 (type default_smd))
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component Capacitors_SMD:C_1206_HandSoldering
+      (place C1 59690 -50800 front 270 (PN 18pF))
+      (place C2 74930 -50800 front 270 (PN 18pF))
+      (place C3 53340 -38100 front 180 (PN 4.7pF))
+      (place C4 68580 -38100 front 180 (PN 2.7pF))
+      (place C5 85090 -38100 front 180 (PN 4.7pF))
+    )
+    (component "Inductor_SMD_25_20:SMD-2520"
+      (place L1 53340 -48260 front 270 (PN 68nH))
+      (place L2 67310 -48260 front 90 (PN 100nH))
+      (place L3 82550 -48260 front 270 (PN 68nH))
+      (place L4 60960 -36830 front 0 (PN 15nH))
+      (place L5 76200 -36830 front 0 (PN 15nH))
+    )
+    (component Bacar:SMA_Edge
+      (place P1 41910 -43180 front 90 (PN SMA))
+      (place P2 93980 -38100 front 270 (PN SMA))
+      (place P3 93980 -48260 front 270 (PN SMA))
+    )
+    (component Mounting_Holes:MountingHole_3.2mm_M3_Pad
+      (place J1 44450 -59690 front 0 (PN "3mm mount"))
+      (place J2 44450 -26670 front 0 (PN "3mm mount"))
+      (place J3 91440 -26670 front 0 (PN "3mm mount"))
+      (place J4 91440 -59690 front 0 (PN "3mm mount"))
+    )
+  )
+  (library
+    (image Capacitors_SMD:C_1206_HandSoldering
+      (outline (path signal 100  -1600 -800  -1600 800))
+      (outline (path signal 100  1600 -800  -1600 -800))
+      (outline (path signal 100  1600 800  1600 -800))
+      (outline (path signal 100  -1600 800  1600 800))
+      (outline (path signal 120  1000 1020  -1000 1020))
+      (outline (path signal 120  -1000 -1020  1000 -1020))
+      (outline (path signal 50  -3250 1050  3250 1050))
+      (outline (path signal 50  -3250 1050  -3250 -1050))
+      (outline (path signal 50  3250 -1050  3250 1050))
+      (outline (path signal 50  3250 -1050  -3250 -1050))
+      (pin Rect[T]Pad_2000x1600_um 1 -2000 0)
+      (pin Rect[T]Pad_2000x1600_um 2 2000 0)
+    )
+    (image "Inductor_SMD_25_20:SMD-2520"
+      (outline (path signal 100  -1500 -2100  -1500 2100))
+      (outline (path signal 100  1500 -2100  -1500 -2100))
+      (outline (path signal 100  1500 2100  1500 -2100))
+      (outline (path signal 100  -1500 2100  1500 2100))
+      (outline (path signal 200  -1200 -500  -1200 500))
+      (outline (path signal 200  1200 500  1200 -500))
+      (outline (path signal 50  1500 2100  1500 -2100))
+      (outline (path signal 50  1500 -2100  -1500 -2100))
+      (outline (path signal 50  -1500 -2100  -1500 2100))
+      (outline (path signal 50  -1500 2100  1500 2100))
+      (pin Rect[T]Pad_2200x1100_um 1 0 1250)
+      (pin Rect[T]Pad_2200x1100_um 2 0 -1250)
+    )
+    (image Bacar:SMA_Edge
+      (outline (path signal 150  -3300 2540  3300 2540))
+      (outline (path signal 150  -3300 12700  -3300 2540))
+      (outline (path signal 150  3300 12700  -3300 12700))
+      (outline (path signal 150  3300 12700  3300 2540))
+      (pin Rect[T]Pad_1600x4900_um 1 0 0)
+      (pin Rect[T]Pad_1600x4900_um 2 -2480 0)
+      (pin Rect[T]Pad_1600x4900_um 2@1 2480 0)
+      (pin Rect[B]Pad_1600x4900_um 2@2 2540 0)
+      (pin Rect[B]Pad_1600x4900_um 2@3 -2540 0)
+    )
+    (image Mounting_Holes:MountingHole_3.2mm_M3_Pad
+      (outline (path signal 150  3200 0  3043.38 -988.854  2588.85 -1880.91  1880.91 -2588.85
+            988.854 -3043.38  0 -3200  -988.854 -3043.38  -1880.91 -2588.85
+            -2588.85 -1880.91  -3043.38 -988.854  -3200 0  -3043.38 988.854
+            -2588.85 1880.91  -1880.91 2588.85  -988.854 3043.38  0 3200
+            988.854 3043.38  1880.91 2588.85  2588.85 1880.91  3043.38 988.854))
+      (outline (path signal 50  3450 0  3281.14 -1066.11  2791.11 -2027.86  2027.86 -2791.11
+            1066.11 -3281.14  0 -3450  -1066.11 -3281.14  -2027.86 -2791.11
+            -2791.11 -2027.86  -3281.14 -1066.11  -3450 0  -3281.14 1066.11
+            -2791.11 2027.86  -2027.86 2791.11  -1066.11 3281.14  0 3450
+            1066.11 3281.14  2027.86 2791.11  2791.11 2027.86  3281.14 1066.11))
+      (pin Round[A]Pad_6400_um 1 0 0)
+    )
+    (padstack Round[A]Pad_6400_um
+      (shape (circle F.Cu 6400))
+      (shape (circle B.Cu 6400))
+      (attach off)
+    )
+    (padstack Rect[B]Pad_1600x4900_um
+      (shape (rect B.Cu -800 -2450 800 2450))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_2000x1600_um
+      (shape (rect F.Cu -1000 -800 1000 800))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_2200x1100_um
+      (shape (rect F.Cu -1100 -550 1100 550))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1600x4900_um
+      (shape (rect F.Cu -800 -2450 800 2450))
+      (attach off)
+    )
+    (padstack "Via[0-1]_600:400_um"
+      (shape (circle F.Cu 600))
+      (shape (circle B.Cu 600))
+      (attach off)
+    )
+  )
+  (network
+    (net "Net-(C1-Pad1)"
+      (pins C1-1 L1-1 L2-2)
+    )
+    (net GND
+      (pins C1-2 C2-2 L4-1 L5-1 P1-2 P1-2@1 P1-2@2 P1-2@3 P2-2 P2-2@1 P2-2@2 P2-2@3
+        P3-2 P3-2@1 P3-2@2 P3-2@3 J1-1 J2-1 J3-1 J4-1)
+    )
+    (net "Net-(C2-Pad1)"
+      (pins C2-1 L2-1 L3-2)
+    )
+    (net "Net-(C3-Pad1)"
+      (pins L4-2 C3-1 C4-2)
+    )
+    (net "Net-(C3-Pad2)"
+      (pins L1-2 P1-1 C3-2)
+    )
+    (net "Net-(C4-Pad1)"
+      (pins L5-2 C4-1 C5-2)
+    )
+    (net "Net-(C5-Pad1)"
+      (pins P2-1 C5-1)
+    )
+    (net "Net-(L3-Pad1)"
+      (pins L3-1 P3-1)
+    )
+    (class kicad_default "" GND "Net-(C1-Pad1)" "Net-(C2-Pad1)" "Net-(C3-Pad1)"
+      "Net-(C3-Pad2)" "Net-(C4-Pad1)" "Net-(C5-Pad1)" "Net-(L3-Pad1)"
+      (circuit
+        (use_via Via[0-1]_600:400_um)
+      )
+      (rule
+        (width 250)
+        (clearance 200.1)
+      )
+    )
+  )
+  (wiring
+  )
+)
