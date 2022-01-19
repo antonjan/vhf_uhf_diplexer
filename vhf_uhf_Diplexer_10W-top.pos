@@ -1,0 +1,11 @@
+### Module positions - created on 01/18/22 14:24:32 ###
+### Printed by Pcbnew version pcbnew (5.1.9)-1
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val       Package                    PosX       PosY       Rot  Side
+C1        18pF      C_1206_HandSoldering    59.6900   -50.1650  270.0000  top
+C2        18pF      C_1206_HandSoldering    74.9300   -50.1650  270.0000  top
+C3        4.7pF     C_1206_HandSoldering    53.3400   -38.1000  180.0000  top
+C4        2.7pF     C_1206_HandSoldering    68.5800   -38.1000  180.0000  top
+C5        4.7pF     C_1206_HandSoldering    85.0900   -38.1000  180.0000  top
+## End

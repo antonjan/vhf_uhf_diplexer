@@ -1,0 +1,11 @@
+Ref,Val,Package,PosX,PosY,Rot,Side
+"C1","18pF","C_1206_HandSoldering",59.690000,-50.165000,270.000000,top
+"C2","18pF","C_1206_HandSoldering",74.930000,-50.165000,270.000000,top
+"C3","4.7pF","C_1206_HandSoldering",53.340000,-38.100000,180.000000,top
+"C4","2.7pF","C_1206_HandSoldering",68.580000,-38.100000,180.000000,top
+"C5","4.7pF","C_1206_HandSoldering",85.090000,-38.100000,180.000000,top
+"L1","68nH","L_1008_2520Metric_Pad1.43x2.20mm_HandSolder",52.705000,-48.260000,180.000000,top
+"L2","100nH","L_1008_2520Metric_Pad1.43x2.20mm_HandSolder",66.675000,-48.260000,180.000000,top
+"L3","68nH","L_1008_2520Metric_Pad1.43x2.20mm_HandSolder",82.550000,-48.260000,180.000000,top
+"L4","15nH","L_1008_2520Metric_Pad1.43x2.20mm_HandSolder",60.960000,-36.830000,270.000000,top
+"L5","15nH","L_1008_2520Metric_Pad1.43x2.20mm_HandSolder",76.200000,-36.830000,270.000000,top
